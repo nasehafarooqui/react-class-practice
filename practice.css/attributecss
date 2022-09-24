@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,8 +10,8 @@
 
 
 <body>
-    <header>harvrd univercity</header>
-    <main>welcome to the main page
+    <header>style="text align";center;font size ="large";harvrd univercity</header>
+    <main>fontsize:small;text align="right";welcome to the main page
     </main>
     <footer>copy right &copy;harvard
     </footer>
