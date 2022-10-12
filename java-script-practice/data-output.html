@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>this is heading</h2>
+    <p id="data-demo"></p>
+    <button onclick='myfunction()'>click me1</button>
+    <button onclick='myfunction2()'>click me2</button>
+    <script>
+        function myfunction() 
+    {
+        var a,b,c;
+        a = 2;
+        b = 4;
+        console.log("valu of b is::,b");
+        console.log("valu of a is::,a");
+        c = add(a,b);
+        consol.log ("the sum of first number is ",c);
+    }
+    function add(a,b){
+        return a+b;
+
+    }
+    function myfunction2(){
+        var x, y, z;
+        x = 9;
+        y = 7;
+        z = add(x,y);
+        consol.log ("the sum offirst number is ",x,y,z);
+        }
+    </script>
+</body>
+</html>
